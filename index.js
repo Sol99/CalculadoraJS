@@ -22,7 +22,11 @@ buttons.forEach((item)=>{
     };
 });
 
-
+const themeToggleBtn = document.querySelector(".theme-toggler");
+const calculator = document.querySelector(".calculator");
+themeToggleBtn.onclick=() =>{
+    calculator.classList.toggle("dark")
+}
 //Document.querySelectorAll() 
 //representa una lista de elementos del documento que coinciden con el grupo de selectores indicados.
 
