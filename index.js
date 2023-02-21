@@ -4,7 +4,6 @@ const buttons= document.querySelectorAll("button");
 
 buttons.forEach((item)=>{
     item.onclick = () => {
-        console.log("hola")
         if(item.id=="clear"){
             display.innerText="";
         }else if(item.id=="backspace"){
@@ -22,6 +21,7 @@ buttons.forEach((item)=>{
         }
     };
 });
+
 
 //Document.querySelectorAll() 
 //representa una lista de elementos del documento que coinciden con el grupo de selectores indicados.
